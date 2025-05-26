@@ -42010,7 +42010,8 @@ fieldset[disabled] .rd-file-picker-btn {
 												      var blink = document.getElementById('blink');
 												      setInterval(function() {
 												        blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
-												      }, 100);
+													blink.style.transition = 'opacity 0.5s';
+												      }, 1000);
 												    </script>
 													<label style="font-size:20px;color:red;"><b>Valid from 05/04/2025 to 04/06/2025</b></label>
 												</td>
